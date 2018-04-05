@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:'HelvCyr Thin';
+	src:url(../type/HelveticaNeueCyr-Thin.ttf);
+}
+@font-face {
+	font-family:HelvCyr Bold;
+	src:url(../type/HelveticaNeueCyr-Bold.otf);
+}
+html, body{height: 100%}
+.body{ background-attachment: fixed;}
+.hh{font-family:'Helvetica';
+font-weight: lighter;
+}
+.menu nav{
+	align-content: center;
+}
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+	
+}
+.menu ul li{
+	display: inline-block;
+	background: rgba(200,200,200,0.30);
+	font-family: 'HelvCyr Thin', helvetica;
+	font-weight: bolder;
+}
+.menu li a{
+text-decoration: none;
+color: black;
+display: block;
+padding: 10px 25px;
+margin-right: -4px;
+background: rgba(255,255,255,0.50);
+}
+.menu li a:hover{
+	color:blue;
+}
+table caption h1{
+	font-family:'Helvetica Neue', helvetica;
+	font-weight:lighter;
+}
+ .layout {
+	 width: 100%;
+}
+
+   .layout TD { vertical-align: top; padding: 5px;}
+   .col1 {
+    width: 10%; /* Ширина первой колонки */
+   }
+   .col2 {
+    width: 80%; /* Ширина второй колонки */
+    background: #ffffff; /* Цвет фона второй колонки */
+	   font-family: 'Helvetica';
+   }
+   .col3 {
+    width: 10%; /* Ширина третьей колонки */
+   }
+a {text-decoration: none;}
+a:visited,a:link{ color: #101010;}
+a:hover{color: rgba(64,64,64,0.94)}
+.pgh{
+	font-family: 'HelvCyr Thin', Helvetica;
+	font-weight: bold;
+	margin-left: 10px;
+	text-align: justify;
+}
+#pic1 {
+	border: none;
+	margin-left: 10%;
+	
+}
+h2:first-letter{
+	color: black;
+	font-size: 150%;
+}
+p>em{
+	color: navy;
+}
+strong+i{
+	font-stretch: expanded;
+}
+#sp {
+	font-size: 150%;
+}
+/*позиционирование*/
+#header{
+	position: absolute;
+	align-content: center;
+	text-align: center;
+}
+#left{
+	position: absolute;
+	width: 40%;
+	float: left; 
+}
+#content{
+	width: 420px;
+	height: 800px;
+	position: absolute;
+	overflow-y: scroll;
+	margin:0px;
+	margin-left: 70%; 
+}
+#footer{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	align-content: center;
+	clear:both;
+}
+h1,p{
+	margin:0px;
+	padding: 10px;
+}
+#info{
+	padding-top:10px;
+	font-family: 'HelvCyr Thin', Helvetica;
+	font-weight: bold;
+}
+.image{
+	float:right;
+}
+#back
+{
+	background-image: url(../pics/font_back.png);
+}
+.topbutton{
+width:100px;
+background:rgba(128,128,128,0.55);
+text-align:center;
+padding:10px;
+position:fixed;
+bottom: 5px;
+left:9px;
+cursor:pointer;
+color:#333;
+font-family:'HelvCyr Thin';
+font-size:12px;
+}
+.topbutton a:hover{
+	background:coral;
+}
+#footer{
+	position: relative;
+	width: 100%;
+	margin-top: 60%;
+    margin-bottom: 0;
+	text-align: center;
+	background: lightblue;
+}
+/*стили основного текста и заголовков*/
+.one_style{
+	font-family: 'HelvCyr Thin', Helvetica;
+	font-weight: bold;
+}
+.hdr{
+	font-family: 'HelvCyr Bold', Helvetica;
+}
+/*каллиграфия*/
+#kal{
+	background-image: url(../pics/FqLrAZuA7IQ.jpg);
+	background-size: cover;
+}
+#kal_h{
+	background-color: white;
+	font-size: 16pt;
+	text-align: center;
+	height: 40px;
+	border-bottom: dotted;
+}
+#aside{
+	position: absolute;
+	left: 5%;
+	top: 20%;
+	padding: 10px;
+	margin-top: 40px;
+	background-color: aliceblue;
+    width: 200px;
+}
+#time{
+	text-align: center;
+    width: 200px;
+    float: left;
+	border-bottom: groove;
+	height: 40px;
+}
+#sect{
+	margin-left:25%;
+	margin-top: 0;
+	padding-top: 1%;
+	position: relative;
+	width: 50%;
+	background-color: white;
+}
+#hgroup{
+	border-left: solid thick;
+	margin-left: 20px;
+	padding-left: 5px;
+}
+#foot{
+	margin-left:25%;
+	margin-top: 0;
+	position: relative;
+	width: 50%;
+	padding-top: 15px;
+	text-align: center;
+	background-color:lightblue;
+	height: 30px;
+}
+
+/*contats*/
+.capcha{
+	text-align: center;
+}
+.sections {
+  counter-reset: characters;
+}
+input:checked {
+  counter-increment: characters;
+}
+.total:after {
+  content: counter(characters);
+}
+.list{
+	list-style: none;
+}
+#bg_cont{
+	background-image: url(../pics/back_contacts.png);
+	background-size: cover;
+}
+#podval{
+	text-align: center;
+	background-color:lightblue;
+	margin-top:1%;
+	height: 30px;
+	padding-top: 15px;
+}
+.field{
+	background-color: white;
+	width:20%;
+}
+#checker{
+	width: 20%;
+	background-color:white;
+	border: thin solid;
+}
+#conteint{
+	margin-left: 5%;
+}
+.topbutton_right a:hover{
+	background:coral;
+}
+.topbutton_right{
+	width:100px;
+	background:lightblue;
+	text-align:center;
+	padding:10px;
+	position:fixed;
+	bottom: 5px;
+	right:9px;
+	cursor:pointer;
+	color:#333;
+	font-family:'HelvCyr Thin';
+	font-size:12px;
+}
+
+.canva{
+	background-color: white;
+	position: absolute;
+	float: right;
+	right: 2%;
+	top: 0;
+	width: 760px;
+	margin-top: 30%;
+	height: 700px;
+}

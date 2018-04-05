@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:HelvCyr Thin;
+	src:url(../type/HelveticaNeueCyr-Thin.ttf);
+}
+@font-face {
+	font-family:HelvCyr Bold;
+	src:url(../type/HelveticaNeueCyr-Bold.otf);
+}
+
+#parallx{
+	margin: 0;
+	padding: 0;
+}
+#box1{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../pics/i1.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	display:table;
+}
+#box2{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../pics/i2.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	display:table;
+}
+#box3{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../pics/i3.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	display:table;
+}
+#box4{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../pics/i4.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	display:table;
+}
+#box5{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../pics/i5.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	display:table;
+}
+#styleh{
+	font-family:'HelvCyr Bold', Helvetica;
+	color: black;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	display: block;
+	text-align: center;
+	vertical-align:top;
+}
+.hy{
+	font-family: 'Helvetica';
+	font-weight: black;
+	color: black;
+	margin-top:20px;
+	display: block;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+}
+.par{
+	font-family:'HelvCyr Thin', Helvetica;
+	font-weight: bold;
+	color: aliceblue;
+	margin-left: 20%;
+	width: 60%;
+	margin-right: 20%;
+}
+#block1{
+	background-color: red;
+}
+#block2{
+	margin-top: 20%;
+	margin-bottom: 20%;
+	background-color: cadetblue;
+}
+#block3{
+	margin-top: 20%;
+	margin-bottom: 20%;
+	background-color:navy;
+}
+#block4{
+	margin-top: 20%;
+	margin-bottom: 20%;
+	background-color:maroon;
+}
+#block5{
+	margin-top: 20%;
+	margin-bottom: 20%;
+	background-color:black;
+}

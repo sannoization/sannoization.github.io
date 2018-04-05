@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Контакты</title>
+<link rel="shortcut icon" href="../pics/icon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../style/style2.css" type="text/css">
+</head>
+<body id="bg_cont">
+	<a href="../index.html"><h1 align="center" class="hh">Графический дизайн</h1></a>
+<center>
+<nav class="menu">
+	<ul>
+		<li><a href="../pages/Contacts.html">Отзывы</a></li>
+		<li><a href="../pages/Kalligraphy.html">Каллиграфия</a></li>
+		<li><a href="../pages/font_design.html">Шрифты</a></li>
+		<li><a href="../pages/corp_style.html">Фирменный стиль</a></li>
+		<li><a href="../pages/infographics.html">Инфографика</a></li>
+	</ul>
+	</nav>
+</center>
+<p class="one_style" style="padding-left: 5px">Здесь вы можете оставить отзыв о нашем сайте!</p>
+<form>
+			<textarea cols="200" rows="10" placeholder="Оставить отзыв..." >
+			</textarea>
+</form>
+		<div id="conteint" class="one_style">
+			<fieldset class="field">
+				<ul class="list">
+					<li><input type="text" id="firstname" placeholder="Имя" required></li>
+					<li><input type="text" id="lastname" placeholder="Фамилия" required></li>
+				</ul>
+			</fieldset>
+	<fieldset class="field">
+		<ul class="list">
+			<li><p>Контактный телефон</p><input type="tel" placeholder="Введите телефон..." pattern="2-[0-9]{3}-[0-9]{3}" required></li>
+			<li><p>Контактный E-mail</p><input type="email"  placeholder="Введите E-mail..."></li>
+			<li><p>URL организации (необязательно)</p><input type="url" placeholder="Введите URL..."></li>
+		</ul>
+	</fieldset>
+		<fieldset class="field">
+			<ul class="list">
+				<li><p>Оцените сайт по 10-ти балльной шкале</p><input type="number" min="1" max="10"></li>
+				<li><p>Какое настроение вызвал у вас сайт?</p><input type="range"></li>
+				<li><p>Дата посещения</p><input type="date"></li>
+				<li><p>	Время посещения</p><input type="time"></li>
+			</ul>
+		</fieldset>
+<fieldset class="field">
+	<ul class="list">
+		<li><p>Выберите цвет, который соответствует вашему настроению</p><input type="color"></li>
+		<li><p>Выберите раздел, который вам не понравился</p><input name="search" list="search">
+			<datalist id="search">
+				<option>Графический дизайн</option>
+				<option>Каллиграфия</option>
+				<option>Шрифты</option>
+				<option>Инфографика</option>
+				<option>Фирменный стиль</option>
+				<option>отзывы</option>
+			</datalist>
+	</li>
+</ul>
+</fieldset>
+	<div class="one_style" id="checker"><div class="sections">
+		<p>Какие разделы вам больше всего понравились?</p>
+  <ul class="list">
+	 <li><input id="K" type="checkbox"><label for="K">Каллиграфия</label></li>
+	 <li> <input id="F" type="checkbox"><label for="F">Шрифты</label></li>
+	 <li> <input id="Corp" type="checkbox"><label for="Corp">Фирменный стиль</label></li>
+	 <li> <input id="info" type="checkbox"><label for="info">Инфографика</label></li>
+</ul>
+</div>
+<p class="total">
+  Итого выбрано:
+</p>
+		<a href="../pages/afterform.html"><input type="submit"></a>
+</div></div>
+		<div class="canva"><canvas id="myCanvas" width="760" height="700"></canvas></div>
+		<script  language="javascript" type="text/javascript" src="../script/Canvas.js"></script>
+	<footer id="podval" class="one_style">&copy;Sannoization</footer>
+</body>
+</html>
